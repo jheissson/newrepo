@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>animaciones y transiciones</title>
+    <link rel="stylesheet" href="/css/style-animaciones.css" />
+  </head>
+
+  <body>
+    <main>
+      <!-- !!background examples!!---------------->
+      <section class="contenedor-de-fondos">
+        <div class="fondo-imagen">IMAGE</div>
+        <div class="fondo-color">COLOR</div>
+        <div class="fondo-lineal">LINEAL</div>
+        <div class="fondo-radial">RADIAL</div>
+      </section>
+
+      <!--!!transition examples!!---------------->
+      <section class="transition-contain">
+        <div class="t-linear">t-linear</div>
+        <div class="t-ease">ease</div>
+        <div class="t-ease-in">ease-in</div>
+        <div class="t-ease-out">ease-out</div>
+        <div class="t-ease-in-out">ease-in-out</div>
+        <div class="t-steps">steps</div>
+      </section>
+      <!-- !!transform examples!!-------------- -->
+      <section class="translate">
+        <!-- !!translate examples!!-------------- -->
+        <div class="pelota-uno">transform: translateX(300px) translada x</div>
+        <div class="pelota-dos">transform: translateY(300px) translada y</div>
+        <div class="pelota-tres">
+          transform: translate(300px, -200px) translada z
+        </div>
+        <div class="pelota-cuatro">scale(1.5)aumenta</div>
+        <!-- !!scale examples!!-------------- -->
+        <div class="pelota-cinco">transform: scaleX(1.5) eje x;</div>
+        <div class="pelota-seis">transform: scaley(1.5)eje y;</div>
+        <div class="pelota-siete">transform: scale(0.9) disminuye;</div>
+        <div class="pelota-ocho">transform: scale(-1, 1) espejo</div>
+
+        <!-- !!rotate examples!!-------------- -->
+        <div class="pelota-nueve">transform: rotateX(50deg)</div>
+        <div class="pelota-diez">transform: rotateY(50deg)</div>
+        <div class="pelota-once">transform: rotateZ(50deg)</div>
+      </section>
+
+      <!-- !!animation examples!!-------------- -->
+      <section class="animation">
+        <div class="banner-1">
+          <p class="p-1">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+          </p>
+        </div>
+
+        <div class="banner-2">
+          <p class="p-2">
+            banner corrido inicio/final .animation .banner-2 .p-2{
+            animation-name: slideinin animation-duration:
+            20s;animation-timing-function: linear animation-direction:initial;
+            animation-iteration-count:infinite; white-space: nowrap;}
+          </p>
+        </div>
+      </section>
+      <section class="cuadro">
+        <div class="anima"></div>
+      </div>
+    </main>
+  </body>
+</html>

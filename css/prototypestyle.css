@@ -1,0 +1,175 @@
+body{  font-family: 'Russso One', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: #bdc3c7;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #2c3e50, #bdc3c7);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #2c3e50, #bdc3c7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*----------------- item list---------------------------- */
+
+ul li, ol li{list-style: none;
+padding-left: 0;}
+a{text-decoration: none;}
+
+/*----------------- header buscador y logos------------- */
+#header-index {
+    font-family: 'russo one', sans-serif;
+    color: black;
+    font-size: 50px;
+    margin: 0;
+    padding: 0;
+}
+
+#index-body {
+    margin: 0;
+    padding: 0;
+}
+#header-search {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    /* background-color: #f0f0f0; */
+    /* border-bottom: 2px solid black; */
+}
+#header-search .logo {
+    text-decoration: none;
+    color: black;
+    
+}
+
+.search {
+    width: 300px;
+    height: 30px;
+}
+
+.search input[type="search"] {
+    width: 500px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid black;
+    font-size: 18px;
+}
+
+.iconos-header li {
+    display: inline-block;
+    margin: 25px;}
+
+.iconos-header li a img {
+    width: 50px;
+}
+
+/* ------------------vamos con la barra de navegacion */
+
+
+.barra{ 
+    padding: 0cap0;
+background-color: rgb(53, 53, 53);
+text-align: center;
+box-shadow: -1px 9px 4px -2px rgba(0,0,0,0.75);
+-webkit-box-shadow: -1px 9px 4px -2px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 9px 4px -2px rgba(0,0,0,0.75);}
+
+.barra .nav-links li {
+    display: inline-block;
+    margin-right: 30px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.barra .nav-links li a{color: white;}
+
+/* ENTRAMOS EN EL MAIN */
+
+.main-index .presentacion {
+    text-align: center;
+    color: white;
+    padding: 150px 20px;
+    background-color: #2c3e5042;
+    box-shadow: 1px 19px 30px -12px rgba(207,203,203,0.67);
+-webkit-box-shadow: 1px 19px 30px -12px rgba(207,203,203,0.67);
+-moz-box-shadow: 1px 19px 30px -12px rgba(207,203,203,0.67);}
+
+.main-index .presentacion h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.main-index .presentacion p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}       
+.main-index .presentacion a {
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+/* ----------------------cards section------------------- */
+.main-index .cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 50px 20px;
+}
+
+.cards-section .cards {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    text-align: center;
+    padding: 20px;
+}
+
+.cards-section .cards img {
+    width: 250px;
+    height: 300px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.cards-section .cards p {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.cards-section .cards a {
+    display: inline-block;
+    background-color: rgb(87, 87, 87);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+
+
+/* ------------------------footer */
+footer .redes {display:flex
+; justify-content: center;
+    align-items: center;
+    background-color: rgb(53, 53, 53);
+    padding: 20px 0;
+    box-shadow: 0px -4px 6px -2px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px -4px 6px -2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px -4px 6px -2px rgba(0,0,0,0.75);
+    }
+footer img {
+    width: 50px;
+    margin: 10px;
+}
+
+footer div h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color : white;  
+    text-align: center;
+}
+

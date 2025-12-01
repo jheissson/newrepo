@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>formas</title>
+  </head>
+  <body>
+    <section>
+      <form action="">
+        <div>
+          <label for="Search">search</label>
+          <!--el type es de texto, -->
+          <input type="text" name="Search" placeholder="Search" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="e-mail">contactanos</label>
+          <!--el type es de correo, -->
+          <input type="email" name="e-mail" placeholder="correo" />
+        </div>
+        <br /><br /><br />
+        <div>
+          <label for="numero">numero telefonico</label>
+          <!--el type es de numero, -->
+          <input type="number" name="numero" placeholder="numero celular" />
+        </div>
+
+        <br /><br /><br />
+
+        <div>
+          <label for="fecha">fecha de nacimiento</label><!--el type es de fecha, -->
+          <input type="date" name="fecha" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="hora">hora de cita</label><!--el type es de hora, -->
+          <input type="time" name="hora" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="archivo">subir archivo</label><!--el type es de archivo, -->
+          <input type="file" name="archivo" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="contraseña">contraseña</label><!--el type es de contraseña, -->
+          <input type="password" name="contraseña" placeholder="contraseña" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="boton">enviar</label><!--el type es de boton, -->
+          <input type="button" name="boton" value="enviar" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="color">elige un color</label><!--el type es de color, -->
+          <input type="color" name="color" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="rango">elige un rango</label><!--el type es de rango, -->
+          <input type="range" name="rango" min="0" max="100" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="pagina web">pagina web</label><!--el type es de url, -->
+          <input
+            type="url"
+            name="pagina web"
+            placeholder="https://www.ejemplo.com"
+          />
+        </div>
+        <div>
+          <label for="telefono">telefono</label><!--el type es de tel, -->
+          <input type="tel" name="telefono" placeholder="+1234567890" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="mensaje">mensaje</label><!--el type es de area de texto, -->
+          <textarea
+            name="mensaje"
+            rows="4"
+            cols="30"
+            placeholder="Escribe tu mensaje aquí..."
+          ></textarea>
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="submit">enviar formulario</label><!--el type es de submit, -->
+          <input type="submit" name="submit" value="Enviar Formulario" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="reset"></label><!--el type es de reset, -->
+          <input type="reset" name="reset" value="Reiniciar Formulario" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="hidden">campo oculto</label><!--el type es de hidden, -->
+          <input type="hidden" name="hidden" value="valor oculto" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="checkbox">acepto los terminos</label><!--el type es de checkbox, -->
+          <input type="checkbox" name="checkbox" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="radio1">opcion 1</label><!--el type es de radio, -->
+          <input type="radio" name="radio" value="opcion1" />
+          <label for="radio2">opcion 2</label>
+          <input type="radio" name="radio" value="opcion2" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="image">enviar imagen</label><!--el type es de image, -->
+          <input
+            type="image"
+            name="image"
+            src="https://dummyimage.com/100x50/000/fff&text=Enviar"
+            alt="Enviar"
+          />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="month">elige un mes</label><!--el type es de month, -->
+          <input type="month" name="month" />
+        </div>
+<br /><br /><br />
+        <div>
+          <label for="week">elige una semana</label><!--el type es de week, -->
+          <input type="week" name="week" />
+        </div>
+          
+<br /><br /><br />
+        <div>
+          <label for="datetime-local">elige fecha y hora</label><!--el type es de datetime-local, -->
+          <input type="datetime-local" name="datetime-local" />
+        </div>
+<br /><br /><br />
+        <div>
+          <select name="select" id="">
+          <option value="pais1">venezuela</option>
+          <option value="pais2">colombia</option>
+          <option value="pais3">panama</option>
+        </select>
+        </div>
+        
+<br /><br /><br />
+        <div>
+          <label for="datalist">elige un navegador</label> <!--el type es de datalist, -->
+          <input list="navegadores" name="datalist" />
+          <datalist id="navegadores">
+            <option value="Google Chrome"></option>
+            <option value="Mozilla Firefox"></option>
+            <option value="Microsoft Edge"></option>
+            <option value="Safari"></option>
+            <option value="Opera"></option>
+          </datalist>
+      </form>
+    </section>
+  </body>
+</html>
